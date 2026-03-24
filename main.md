@@ -20,6 +20,44 @@ Aliquam arcu turpis, ultrices sed luctus ac, vehicula id metus. Morbi eu feugiat
 This is an interesting piece of information, to which the reader should pay special attention. Fusce varius orci ac magna dapibus porttitor. In tempor leo a neque bibendum sollicitudin. Nulla pretium fermentum nisi, eget sodales magna facilisis eu. Praesent aliquet nulla ut bibendum lacinia. Donec vel mauris vulputate, commodo ligula ut, egestas orci. Suspendisse commodo odio sed hendrerit lobortis. Donec finibus eros erat, vel ornare enim mattis et.
 \end{info}
 
+# Demonstration of Custom Environments
+
+## Info Box
+
+\begin{info}[Custom Info Title]
+This is an example of the info environment with a custom title.
+\end{info}
+
+## Warning Box
+
+\begin{warn}[Caution:]
+This is an example of the warning environment with a custom title.
+\end{warn}
+
+## Command Line
+
+\begin{commandline}
+\begin{verbatim}
+$ echo "Hello, world!"
+Hello, world!
+\end{verbatim}
+\end{commandline}
+
+## File Contents
+
+\begin{file}[example.py]
+\begin{lstlisting}[language=Python]
+def hello():
+  print("Hello, world!")
+\end{lstlisting}
+\end{file}
+
+## Numbered Question
+
+\begin{question}[What does this code do?]
+Explain the output of the code shown above.
+\end{question}
+
 ## Problem title
 
 In hac habitasse platea dictumst. Curabitur mattis elit sit amet justo luctus vestibulum. In hac habitasse platea dictumst. Pellentesque lobortis justo enim, a condimentum massa tempor eu. Ut quis nulla a quam pretium eleifend nec eu nisl. Nam cursus porttitor eros, sed luctus ligula convallis quis. Nam convallis, ligula in auctor euismod, ligula mauris fringilla tellus, et egestas mauris odio eget diam. Praesent sodales in ipsum eu dictum.
